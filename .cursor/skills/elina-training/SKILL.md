@@ -7,7 +7,7 @@ disable-model-invocation: true
 # Meridian Health — scoping memo
 
 **To:** VP of Engineering, Meridian Health
-**From:** Adrian Smitto, Forward Deployed Engineering
+**From:** Elina Sarvari, Forward Deployed Engineering
 **Date:** August 13, 2026
 
 Thanks for the half hour. Here's where I've landed, including a couple of places I'd push back.
