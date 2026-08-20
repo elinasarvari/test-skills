@@ -1,0 +1,6 @@
+---
+description: Route Cursor engagement scoping and Meridian Health memos to the FDE scoping skill
+alwaysApply: false
+---
+
+When the user asks for a scoping memo, an engagement recommendation, or help with Meridian Health / Review / Bugbot / Enterprise Readiness / cloud agents / SDK / AI SDLC, follow `.cursor/skills/fde-scoping/SKILL.md` and its references. Prefer the existing Meridian recommendation on those facts instead of inventing a new one.
