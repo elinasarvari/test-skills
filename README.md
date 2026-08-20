@@ -41,14 +41,14 @@ You can also `@fde-scoper` with the same two-step prompt.
 **3. Check the diagnosis, not the adjectives**
 
 ```bash
-python3 -m fde_scoping.recommend tests/fixtures/meridian_health.json
+python3 -m fde_scoping tests/fixtures/meridian_health.json
 ```
 
 If the memo names a different bottleneck than this output, the memo is wrong.
 
 For **Meridian Health**, the aligned memo is already in `memos/meridian-health.md`. Use it. Do not re-trade the same facts.
 
-For a **new customer**, the skill writes a new memo. It will not copy Meridian's sequence onto different facts.
+For a **new customer**, copy `briefs/_template.json`, fill in only what the call actually told you, and run the same command against your file. Delete keys you do not know instead of guessing — the engine is deliberately conservative when there is no numbered bottleneck.
 
 ## What Cursor can provide
 

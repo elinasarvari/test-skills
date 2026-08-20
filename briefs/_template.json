@@ -1,0 +1,32 @@
+{
+  "_comment": "Copy this file, fill in what the intro call actually told you. Delete keys you do not know rather than guessing. Then run: python3 -m fde_scoping briefs/<your-file>.json",
+  "customer": "REPLACE ME",
+  "facts": {
+    "engineers": 0,
+    "industry": "",
+
+    "_bottleneck": "The number they gave you. Leave pr_cycle_days empty if they never gave one.",
+    "pr_cycle_days": [],
+    "stated_constraint": null,
+
+    "_foundation": "Is there a findable, owned, versioned config repo?",
+    "shared_config_repo": false,
+    "rules_usage_known": false,
+    "adoption_flat_months": 0,
+
+    "_stages": "Which SDLC stages actually work today?",
+    "write_stage_started": true,
+    "review_stage_works": false,
+    "edges_disconnected": false,
+
+    "_asks": "What people requested. These do not pick the recommendation.",
+    "cto_wants": null,
+    "sdk_askers": 0,
+    "internal_tool_already_shipped": false,
+
+    "_constraints": "Time, security, and the deadline you must respect.",
+    "security_formal": false,
+    "budget_weeks": 4,
+    "board_weeks_out": null
+  }
+}

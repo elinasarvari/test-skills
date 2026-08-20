@@ -18,10 +18,10 @@ Read these only if you need them:
 For a structured first pass on known keys, run:
 
 ```bash
-python3 -m fde_scoping.recommend tests/fixtures/meridian_health.json
+python3 -m fde_scoping tests/fixtures/meridian_health.json
 ```
 
-or point that command at a new facts JSON. The module picks the bet. You still write the memo.
+Point it at a new brief (copy `briefs/_template.json`) for a different customer. The module picks the bet from facts alone. You still write the memo. If the memo names a different bottleneck than this output, the memo is wrong.
 
 If the user asks for the Meridian Health memo, use that worked example. Do not invent a different recommendation for the same facts.
 
