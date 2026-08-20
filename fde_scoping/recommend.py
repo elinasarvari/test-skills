@@ -1,7 +1,8 @@
 """Pick a Cursor engagement from structured intro-call facts.
 
 This is the judgment skeleton the skill writes into a memo. It does not
-draft prose. It refuses to treat a sponsor ask as the problem.
+draft prose. It aligns on the bottleneck first and refuses to treat a
+sponsor ask as the problem.
 """
 
 from __future__ import annotations
@@ -71,7 +72,7 @@ def recommend(facts: dict[str, Any]) -> Recommendation:
     if not security_formal:
         pushback.append("Informal security concern is the finding. Carve-out list in week one. Review comments are not prod commits.")
     if adoption_flat >= 3:
-        reasons.append("Flat adoption is usually ownership, not missing features. Do not sell this as an adoption campaign.")
+        reasons.append("Flat adoption is usually ownership, not missing features. This is not an adoption campaign.")
 
     foundation_missing = (not shared_config) or (not rules_known)
     review_is_the_bet = has_review_number and constraint in {None, "reviewer_availability", "review_cycle"}

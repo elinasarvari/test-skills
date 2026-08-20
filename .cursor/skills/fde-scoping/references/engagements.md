@@ -1,6 +1,6 @@
-# Engagement catalog
+# What Cursor can provide
 
-These are the packaged engagements you can recommend. Products (rules, Bugbot, Cloud Agents, SDK) are ingredients. An engagement is a time-boxed bet with an owner, a surface, and a number.
+These are the time-boxed paths an FDE can staff. Products (rules, Bugbot, Cloud Agents, SDK) are ingredients. A path is a bet with an owner, a surface, and a number — not a pitch deck.
 
 ## Enterprise Readiness (1–2 weeks)
 
@@ -66,4 +66,4 @@ If the four-to-five days is calendar wait (reviewers in meetings, release trains
 | Standard + Review working, sponsor wants autonomy | Cloud Agents as the next engagement |
 | Platform already shipped one used internal tool | SDK scope |
 
-Never sell "all of the above" in one four-week bag.
+Never bag "all of the above" into one four-week path.

@@ -4,7 +4,9 @@
 **From:** Elina Sarvari, Forward Deployed Engineering
 **Date:** August 20, 2026
 
-Thanks for the half hour. Three conversations are running as if they were one. Adoption has been flat at 60% for five months. Your CTO wants cloud agents because he saw a demo. Neither is the most useful thing you gave me. You have a bottleneck with a number: four to five days to get a PR through, and you said reviewer availability is the constraint. That is what I would aim four weeks at — if the split confirms it.
+Thanks for the half hour. I want to make sure we are aimed at the same problem before I talk about Cursor.
+
+Three conversations are running as if they were one. Adoption has been flat at 60% for five months. Your CTO wants cloud agents because he saw a demo. Neither is the problem I think we should work. You have a bottleneck with a number: four to five days to get a PR through, and you said reviewer availability is the constraint. That is the issue I would spend four weeks on — if the split confirms it. The rest of this memo is the Cursor-backed path for that issue, not a response to the demo.
 
 ## 1. Recommendation, and the alternatives I rejected
 

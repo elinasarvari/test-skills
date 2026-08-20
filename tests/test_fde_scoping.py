@@ -44,13 +44,14 @@ class SkillPackageTests(unittest.TestCase):
             self.assertIn(heading, text)
         self.assertIn("four weeks will not move", text.lower())
         self.assertIn("do not promise a percentage", text.lower())
+        self.assertIn("Align on the problem", text)
 
     def test_catalog_names_every_sellable_engagement(self) -> None:
         text = _read(ENGAGEMENTS)
         for name in REQUIRED_ENGAGEMENTS:
             self.assertIn(name, text)
         self.assertIn("Causal mechanism", text)
-        self.assertIn("Never sell", text)
+        self.assertIn("Never bag", text)
 
     def test_framework_has_kill_test(self) -> None:
         text = _read(FRAMEWORK)
