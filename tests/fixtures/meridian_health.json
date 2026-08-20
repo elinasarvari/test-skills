@@ -1,0 +1,41 @@
+{
+  "customer": "Meridian Health",
+  "facts": {
+    "engineers": 4000,
+    "industry": "healthcare technology",
+    "cursor_rollout_months": 6,
+    "adoption_peak_pct": 60,
+    "adoption_flat_months": 5,
+    "pr_velocity_moved": false,
+    "shared_config_repo": false,
+    "rules_usage_known": false,
+    "pr_cycle_days": [4, 5],
+    "stated_constraint": "reviewer_availability",
+    "cto_wants": "cloud_agents",
+    "board_weeks_out": 5,
+    "checkpoint_week": 3,
+    "staff_skeptics": 2,
+    "security_formal": false,
+    "sdk_askers": 15,
+    "sdk_jobs": ["code review", "test scaffolding", "pipeline copilot"],
+    "budget_weeks": 4
+  },
+  "expected": {
+    "primary": "Enterprise Readiness",
+    "secondary": "Cursor Review and Bugbot",
+    "weeks": [1, 2, 3, 4],
+    "kpi": "time to first review",
+    "surface": "two teams",
+    "rejected": [
+      "Cloud Agents now",
+      "SDK now",
+      "Enterprise Readiness alone",
+      "Review and Bugbot without foundation",
+      "AI SDLC Integration",
+      "org-wide adoption push"
+    ],
+    "kill_questions": 3,
+    "week3_is_not_cycle_time": true,
+    "do_not_promise_pct": true
+  }
+}
